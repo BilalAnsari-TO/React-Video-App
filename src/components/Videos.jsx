@@ -18,7 +18,7 @@ const Videos = () => {
   return (
     <Stack direction={['column', 'row']} h={'100vh'} >
         <VStack w={'full'}>
-            <video controls controlsList='nodownload' src='' style={{width: "100%"}} >
+            <video controls controlsList='nodownload' src={videoSrc} style={{width: "100%"}} >
                  </video>
             <VStack alignItems={'flex-start'} p={8} overflowY={'auto'} w={'full'}  >
                 <Heading>Sample Videos</Heading>
